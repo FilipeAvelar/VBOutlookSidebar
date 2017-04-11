@@ -1,0 +1,72 @@
+Type=Control
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{5293DA82-FB26-406A-A31B-76AE1AA16A0E}#1.5#0#..\..\..\..\WINDOWS\system32\WinSubHook.tlb#Window/Subclass/Hook/Timer interface 1.5
+UserControl=Ctl\EyeDropper.ctl
+UserControl=Ctl\EyeDropperContainer.ctl
+Module=mGlobal; bas\mGlobal.bas
+Class=EDItem; Cls\EDItem.cls
+Class=EDItems; Cls\EDItems.cls
+Class=IAPP_MemDC; Cls\cMemDC.cls
+Class=IAPP_MenuHandler; Cls\cMenus.cls
+Class=IAPP_StoreMenu; Cls\clsStoreMenu.cls
+Class=IAPP_Subclass; Cls\cSubclasser.cls
+Class=IAPP_ToolTip; Cls\IAPP_Tooltip.cls
+Startup="(None)"
+HelpFile=""
+Title="DropperTab"
+ExeName32="DropperTab.ocx"
+Path32="..\..\..\..\"
+Command32=""
+Name="DropperTab"
+HelpContextID="0"
+Description="Outlook Style Sidebar "
+CompatibleMode="2"
+CompatibleEXE32="C:\DropperTab.ocx"
+VersionCompatible32="1"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments=""
+VersionFileDescription="Outlook Style Sidebar Control"
+CompilationType=-1
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[vbAdvance]
+IsConsole=0
+HasStubFile=0
+GenerateMap=0
+TSAware=1
+XPManifest=1
+ResBuildName=.\Release\EyeDropper.dll
+ReplaceIcon=0
+SendCommandArgs=0
+SymbDbgPref=0
+RevisionVersion=0
+
+
+
+
+
+
+
+
+
